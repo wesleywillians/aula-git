@@ -1,0 +1,25 @@
+{
+    "name":"son/webinar",
+    "authors": [
+        {
+            "name":"Wesley Willians",
+            "email":"wsilva@schoolofnet.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4",
+        "respect/rest":"0.5.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7@stable"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    },
+    "config": {
+        "bin-dir":"bin"
+    }
+}
